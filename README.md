@@ -122,7 +122,7 @@
 
 ####  1、将项目克隆到本地，cd 到 react-music
 ```javascript
-git clone git@github.com:chenjun1127/react-music.git
+git clone https://github.com/yangliu29/react-music.git
 cd react-music
 ```
 #### 2、安装依赖
