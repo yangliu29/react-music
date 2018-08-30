@@ -1,6 +1,4 @@
-/**
- * Created by 0easy-23 on 2017/9/20.
- */
+
 import React, {Component} from 'react';
 export default class extends Component {
     constructor(props) {

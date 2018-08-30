@@ -1,6 +1,4 @@
-/**
- * Created by 0easy-23 on 2017/9/27.
- */
+
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 export default class Nav extends Component {
@@ -8,7 +6,8 @@ export default class Nav extends Component {
         return (
             <ul className="nav">
                 {
-                    this.props.tabs.map((item, i) => (
+                    this.props.tabs.map((item, i) => (      // 此处用来获取数据组件
+                        // 通过获取URl进行判断css
                         <li className={this.props.location.pathname === item.path ? 'active' : ''} key={i}><Link to={`${item.path}`}>{item.text}</Link></li>))
                 }
             </ul>

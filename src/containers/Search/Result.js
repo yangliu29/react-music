@@ -1,6 +1,4 @@
-/**
- * Created by 0easy-23 on 2017/10/9.
- */
+
 import {connect} from 'react-redux';
 import Result from '../../components/Search/Result';
 import * as musicInfoAction from '../../actions/music';
