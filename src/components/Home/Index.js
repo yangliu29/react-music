@@ -1,6 +1,3 @@
-/**
- * Created by 0easy-23 on 2017/9/27.
- */
 import React, {Component} from 'react';
 import HomeHeader from '../../components/Home/HomeHeader';
 import Nav from '../../components/Home/Nav';

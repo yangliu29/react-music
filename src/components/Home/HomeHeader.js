@@ -1,6 +1,3 @@
-/**
- * Created by 0easy-23 on 2017/9/4.
- */
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import classNames from 'classnames';

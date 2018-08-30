@@ -1,6 +1,4 @@
-/**
- * Created by 0easy-23 on 2017/9/28.
- */
+
 import React, {Component} from 'react';
 import API from '../../util/API';
 import request from '../../util/request';
